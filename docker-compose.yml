@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  compiler:
+    build: .
+    container_name: compiler
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/compiler
+      - /usr/src/compiler/node_modules

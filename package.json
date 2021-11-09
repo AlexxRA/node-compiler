@@ -1,0 +1,15 @@
+{
+  "name": "node-compiler",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "sync": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
