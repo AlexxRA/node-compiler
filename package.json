@@ -1,7 +1,6 @@
 {
   "name": "node-compiler",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "devStart": "nodemon app.js"
   },
