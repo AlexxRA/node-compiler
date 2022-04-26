@@ -5,7 +5,8 @@ services:
     build: .
     container_name: compiler
     ports:
-      - "3000:3000"
+      - "5000:5000"
     volumes:
       - .:/usr/src/compiler
       - /usr/src/compiler/node_modules
+    network_mode: host

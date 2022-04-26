@@ -7,7 +7,7 @@ const app = express()
 //config
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 5000);
 app.use(express.static(path.join(__dirname, 'public')));
 
 //routes
